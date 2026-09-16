@@ -37,6 +37,7 @@
       repeating-linear-gradient(45deg,#efe9dd,#efe9dd 12px,#eae3d5 12px,#eae3d5 24px);
     display:flex;align-items:center;justify-content:center;color:#9a9384;
     font-family:ui-monospace,Menlo,monospace;font-size:12px;text-align:center;padding:16px}
+  .slot picture{width:100%;height:100%;display:block}
   .slot video,.slot img{width:100%;height:100%;object-fit:cover;display:block}
   .card .body{padding:16px 18px}
   .card h3{margin:0 0 6px;font-size:17px}
@@ -99,15 +100,30 @@
     <p class="sub">Three concepts grounded in Brickanta's own material: the cost-of-standing-still report, a customer line, and the agent guide. Image beds generated in ChatGPT; final headline and Swedish copy added in post, with Sebastian on the Swedish.</p>
     <div class="grid">
       <div class="card">
-        <div class="slot"><img src="media/post1.png" alt="Post 1"></div>
+        <div class="slot">
+          <picture>
+            <source srcset="media/post1.webp" type="image/webp">
+            <img src="media/post1.png" alt="Standing still has a price" width="1122" height="1402" loading="lazy">
+          </picture>
+        </div>
         <p class="caption"><b>Standing still has a price.</b> $126B for European construction this decade, per McKinsey. We reached the same place from the Swedish angle.</p>
       </div>
       <div class="card">
-        <div class="slot"><img src="media/post2.png" alt="Post 2"></div>
+        <div class="slot">
+          <picture>
+            <source srcset="media/post2.webp" type="image/webp">
+            <img src="media/post2.png" alt="Customer story: doubling capacity in manpower" width="1122" height="1402" loading="lazy">
+          </picture>
+        </div>
         <p class="caption"><b>Customer story.</b> "With Brickanta, we can more or less double our capacity in manpower." Cut as a vertical quote card.</p>
       </div>
       <div class="card">
-        <div class="slot"><img src="media/post3.png" alt="Post 3"></div>
+        <div class="slot">
+          <picture>
+            <source srcset="media/post3.webp" type="image/webp">
+            <img src="media/post3.png" alt="What an agent actually does" width="1122" height="1402" loading="lazy">
+          </picture>
+        </div>
         <p class="caption"><b>What an agent actually does.</b> Everyone in construction is told to do something about AI. Few are told what that means.</p>
       </div>
     </div>
