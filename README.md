@@ -1,1 +1,1 @@
-# Brickanta
+# Sample content drop for Brickanta
